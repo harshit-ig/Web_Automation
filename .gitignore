@@ -1,5 +1,4 @@
 *.txt
 *.log
-screenshot.jpg
-runforever.txt
+*.jpg
 tor_proxy/
