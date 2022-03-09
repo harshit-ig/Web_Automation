@@ -1,10 +1,19 @@
 import time
 import os
+
+formtimes = int(input("Enter the numbers of form you want: "))
+def numofline():
+    with open(r"users.txt", 'r') as fp:
+        x = len(fp.readlines())
+        return x
+
 with open('runforever.txt') as f:
     text = f.read()
 
 while True:
     time.sleep(10)
+    if formtimes == numofline:
+        break
     with open('runforever.txt') as f:
         text_new = f.read()
     if text_new == text:
@@ -17,3 +26,4 @@ while True:
         text = text_new
     else:
         text = text_new
+os.system('shutdown -s')
