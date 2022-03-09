@@ -1,0 +1,82 @@
+Mar 09 01:20:27.088 ************************************************************
+
+IPchanger last update 26.10.2021
+
+************************************************************
+
+Message of the day: project open-sourced :)
+Repo url: https://github.com/seevik2580/tor-ip-changer
+
+************************************************************
+Mar 09 01:20:27.566 Autostart ON, change every 30 seconds 
+Mar 09 01:20:27.566 ------------------------------------------------------------
+Mar 09 01:20:27.566 Checking files. 
+Mar 09 01:20:27.676 API server binded to 127.0.0.1:14999 (local) OK.
+Mar 09 01:20:29.087 No missing files
+Mar 09 01:20:29.118 ------------------------------------------------------------
+Mar 09 01:20:30.824 TOR server starting 
+Mar 09 01:20:30.824 using direct connection. 
+Mar 09 01:20:30.824 Always obtain unique IP 
+Mar 09 01:20:30.824 ON
+Mar 09 01:20:30.838 Please wait ... 
+Mar 09 01:20:37.101 0% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=0 TAG=starting SUMMARY="Starting"
+250 OK
+ - 250-status/circuit-established=0
+Mar 09 01:20:38.410 5% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=5 TAG=conn SUMMARY="Connecting to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 09 01:20:38.520 10% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=10 TAG=conn_done SUMMARY="Connected to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 09 01:20:38.863 14% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=14 TAG=handshake SUMMARY="Handshaking with a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 09 01:20:39.300 95% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=95 TAG=circuit_create SUMMARY="Establishing a Tor circuit"
+250 OK
+ - 250-status/circuit-established=0
+Mar 09 01:20:45.522 100% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=100 TAG=done SUMMARY="Done"
+250 OK
+ - 250-status/circuit-established=1
+Mar 09 01:20:45.523 TOR server started 
+Mar 09 01:20:45.527 DNS server started 
+Mar 09 01:20:45.533 ------------------------------------------------------------
+Mar 09 01:20:45.535 Proxy list:
+Mar 09 01:20:45.538 127.0.0.1:9050
+Mar 09 01:20:45.541 ------------------------------------------------------------
+Mar 09 01:20:45.545 IP Changer started.
+Mar 09 01:20:45.553 IPchanged=0
+Mar 09 01:20:45.553 IPresolved=0
+Mar 09 01:20:45.553 IPchangeFailed=0
+Mar 09 01:20:45.554 IPchangeMaxFailedBeforeExit=3
+Mar 09 01:20:45.565 AppRunning=25.8058704 sec
+Mar 09 01:20:45.574 -------------------------CHANGING-IP------------------------
+Mar 09 01:20:46.010 Requesting new IP 127.0.0.1:9050 OK
+Mar 09 01:20:46.298 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000001C6EF1BC288>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 09 01:20:51.579 127.0.0.1:9050 IP 185.220.101.135 #### 
+Mar 09 01:20:55.568 IPchanged=1
+Mar 09 01:20:55.568 IPresolved=1
+Mar 09 01:20:55.568 IPchangeFailed=0
+Mar 09 01:20:55.568 IPchangeMaxFailedBeforeExit=3
+Mar 09 01:20:55.568 AppRunning=35.8209094 sec
+Mar 09 01:21:05.576 IPchanged=1
+Mar 09 01:21:05.577 IPresolved=1
+Mar 09 01:21:05.577 IPchangeFailed=0
+Mar 09 01:21:05.577 IPchangeMaxFailedBeforeExit=3
+Mar 09 01:21:05.577 AppRunning=45.830027199999996 sec
+Mar 09 01:21:15.584 IPchanged=1
+Mar 09 01:21:15.584 IPresolved=1
+Mar 09 01:21:15.584 IPchangeFailed=0
+Mar 09 01:21:15.584 IPchangeMaxFailedBeforeExit=3
+Mar 09 01:21:15.584 AppRunning=55.836763 sec
+Mar 09 01:21:15.599 -------------------------CHANGING-IP------------------------
+Mar 09 01:21:15.650 Requesting new IP 127.0.0.1:9050 OK
+Mar 09 01:21:16.331 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000001C6EF7B0E88>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 09 01:21:19.365 TOR server stopped. 
+Mar 09 01:21:19.365 IP Changer stopped.
+Mar 09 01:21:19.475 127.0.0.1:9050 IP 172.107.94.154 245ms 

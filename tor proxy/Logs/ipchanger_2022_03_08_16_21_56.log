@@ -1,0 +1,1560 @@
+Mar 08 16:22:00.111 This version:            1.3.0-8
+Mar 08 16:22:01.273 Last available version:  1.3.0-8
+Mar 08 16:22:01.273 No update required. 
+Mar 08 16:22:01.599 ************************************************************
+
+IPchanger last update 26.10.2021
+
+************************************************************
+
+Message of the day: project open-sourced :)
+Repo url: https://github.com/seevik2580/tor-ip-changer
+
+************************************************************
+Mar 08 16:22:02.292 Autostart OFF. 
+Mar 08 16:22:02.405 API server binded to 127.0.0.1:14999 (local) OK.
+Mar 08 16:22:45.020 ------------------------------------------------------------
+Mar 08 16:22:45.020 Checking files. 
+Mar 08 16:22:45.723 Downloading:  bridges.txt                               4 KB
+Mar 08 16:22:46.332 Downloading:  obfs4proxy.exe                         3525 KB
+Mar 08 16:22:47.317 Downloading:  libcrypto-1_1.dll                      3570 KB
+Mar 08 16:22:48.537 Downloading:  libeay32.dll                           3123 KB
+Mar 08 16:22:49.255 Downloading:  libevent-2-1-7.dll                     1117 KB
+Mar 08 16:22:49.871 Downloading:  libevent_core-2-1-7.dll                 953 KB
+Mar 08 16:22:50.324 Downloading:  libevent_extra-2-1-7.dll                667 KB
+Mar 08 16:22:50.762 Downloading:  libwinpthread-1.dll                     513 KB
+Mar 08 16:22:51.184 Downloading:  libgcc_s_sjlj-1.dll                    1070 KB
+Mar 08 16:22:51.699 Downloading:  libssl-1_1.dll                         1081 KB
+Mar 08 16:22:52.253 Downloading:  libssp-0.dll                            247 KB
+Mar 08 16:22:52.662 Downloading:  ssleay32.dll                            696 KB
+Mar 08 16:22:53.518 Downloading:  tor.exe                                4130 KB
+Mar 08 16:22:54.476 Downloading:  zlib1.dll                               122 KB
+Mar 08 16:22:55.130 Downloading:  geoip                                  3776 KB
+Mar 08 16:22:56.303 Downloading:  geoip6                                 5576 KB
+Mar 08 16:22:56.890 Missing files downloaded
+Mar 08 16:22:56.906 ------------------------------------------------------------
+Mar 08 16:22:58.111 TOR server starting 
+Mar 08 16:22:58.111 using direct connection. 
+Mar 08 16:22:58.111 Always obtain unique IP 
+Mar 08 16:22:58.127 ON
+Mar 08 16:22:58.133 Please wait ... 
+Mar 08 16:22:59.762 0% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=0 TAG=starting SUMMARY="Starting"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:00.790 5% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=5 TAG=conn SUMMARY="Connecting to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:01.930 10% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=10 TAG=conn_done SUMMARY="Connected to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:02.164 14% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=14 TAG=handshake SUMMARY="Handshaking with a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:03.382 20% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=20 TAG=onehop_create SUMMARY="Establishing an encrypted directory connection"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:03.607 25% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=25 TAG=requesting_status SUMMARY="Asking for networkstatus consensus"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:03.829 30% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=30 TAG=loading_status SUMMARY="Loading networkstatus consensus"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:08.909 40% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=40 TAG=loading_keys SUMMARY="Loading authority key certs"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:10.616 45% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=45 TAG=requesting_descriptors SUMMARY="Asking for relay descriptors"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:12.406 50% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=50 TAG=loading_descriptors SUMMARY="Loading relay descriptors"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:18.409 64% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=64 TAG=loading_descriptors SUMMARY="Loading relay descriptors"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:19.185 75% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=75 TAG=enough_dirinfo SUMMARY="Loaded enough directory info to build circuits"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:19.469 80% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=80 TAG=ap_conn SUMMARY="Connecting to a relay to build circuits"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:19.588 85% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=85 TAG=ap_conn_done SUMMARY="Connected to a relay to build circuits"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:19.812 89% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=89 TAG=ap_handshake SUMMARY="Finishing handshake with a relay to build circuits"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:20.639 95% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=95 TAG=circuit_create SUMMARY="Establishing a Tor circuit"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:23:21.642 100% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=100 TAG=done SUMMARY="Done"
+250 OK
+ - 250-status/circuit-established=1
+Mar 08 16:23:21.644 TOR server started 
+Mar 08 16:23:21.647 DNS server started 
+Mar 08 16:23:21.654 ------------------------------------------------------------
+Mar 08 16:23:21.657 Proxy list:
+Mar 08 16:23:21.660 127.0.0.1:9050
+Mar 08 16:23:21.664 ------------------------------------------------------------
+Mar 08 16:23:21.666 IP Changer started.
+Mar 08 16:23:21.674 IPchanged=0
+Mar 08 16:23:21.674 IPresolved=0
+Mar 08 16:23:21.675 IPchangeFailed=0
+Mar 08 16:23:21.675 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:23:21.675 AppRunning=84.864661 sec
+Mar 08 16:23:21.678 -------------------------CHANGING-IP------------------------
+Mar 08 16:23:21.734 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:23:22.028 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF52748>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:23:27.811 127.0.0.1:9050 IP 104.244.75.33 #### 
+Mar 08 16:23:31.686 IPchanged=1
+Mar 08 16:23:31.687 IPresolved=1
+Mar 08 16:23:31.687 IPchangeFailed=0
+Mar 08 16:23:31.687 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:23:31.687 AppRunning=94.87735579999999 sec
+Mar 08 16:23:31.704 -------------------------CHANGING-IP------------------------
+Mar 08 16:23:31.793 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:23:40.771 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B7B39C8>, 'Connection to checkip.amazonaws.com timed out. (connect timeout=9)')': /
+Mar 08 16:23:41.699 IPchanged=2
+Mar 08 16:23:41.700 IPresolved=1
+Mar 08 16:23:41.701 IPchangeFailed=0
+Mar 08 16:23:41.702 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:23:41.702 AppRunning=104.8909947 sec
+Mar 08 16:23:41.792 SOCKSHTTPConnectionPool(host='checkip.amazonaws.com', port=80): Max retries exceeded with url: / (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+Mar 08 16:23:41.882 127.0.0.1:9050 failed - status: Changing OK but unable to connect
+Mar 08 16:23:42.039 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:23:42.417 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B69C988>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:23:45.767 127.0.0.1:9050 IP 46.232.251.191 #### 
+Mar 08 16:23:51.704 IPchanged=3
+Mar 08 16:23:51.704 IPresolved=2
+Mar 08 16:23:51.705 IPchangeFailed=0
+Mar 08 16:23:51.705 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:23:51.705 AppRunning=114.89433849999999 sec
+Mar 08 16:23:51.754 -------------------------CHANGING-IP------------------------
+Mar 08 16:23:51.921 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:23:52.288 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B6A2408>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:23:56.256 127.0.0.1:9050 IP 185.220.101.37 #### 
+Mar 08 16:24:01.714 IPchanged=4
+Mar 08 16:24:01.714 IPresolved=3
+Mar 08 16:24:01.714 IPchangeFailed=0
+Mar 08 16:24:01.714 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:24:01.714 AppRunning=124.9046394 sec
+Mar 08 16:24:01.777 -------------------------CHANGING-IP------------------------
+Mar 08 16:24:01.839 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:24:06.730 127.0.0.1:9050 IP 209.141.50.178 #### 
+Mar 08 16:24:10.227 TOR server stopped. 
+Mar 08 16:24:10.227 IP Changer stopped.
+Mar 08 16:24:36.424 ------------------------------------------------------------
+Mar 08 16:24:36.424 Checking files. 
+Mar 08 16:24:36.471 No missing files
+Mar 08 16:24:36.471 ------------------------------------------------------------
+Mar 08 16:24:36.815 TOR server starting 
+Mar 08 16:24:36.815 using direct connection. 
+Mar 08 16:24:36.815 Always obtain unique IP 
+Mar 08 16:24:36.830 ON
+Mar 08 16:24:36.830 Please wait ... 
+Mar 08 16:24:42.893 0% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=0 TAG=starting SUMMARY="Starting"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:24:44.002 5% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=5 TAG=conn SUMMARY="Connecting to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:24:44.221 10% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=10 TAG=conn_done SUMMARY="Connected to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:24:44.456 14% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=14 TAG=handshake SUMMARY="Handshaking with a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:24:45.003 95% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=95 TAG=circuit_create SUMMARY="Establishing a Tor circuit"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:24:46.104 100% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=100 TAG=done SUMMARY="Done"
+250 OK
+ - 250-status/circuit-established=1
+Mar 08 16:24:46.108 TOR server started 
+Mar 08 16:24:46.114 DNS server started 
+Mar 08 16:24:46.124 ------------------------------------------------------------
+Mar 08 16:24:46.128 Proxy list:
+Mar 08 16:24:46.135 127.0.0.1:9050
+Mar 08 16:24:46.140 ------------------------------------------------------------
+Mar 08 16:24:46.148 IP Changer started.
+Mar 08 16:24:46.156 IPchanged=0
+Mar 08 16:24:46.156 IPresolved=0
+Mar 08 16:24:46.157 IPchangeFailed=0
+Mar 08 16:24:46.157 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:24:46.157 AppRunning=169.34681220000002 sec
+Mar 08 16:24:46.161 -------------------------CHANGING-IP------------------------
+Mar 08 16:24:46.268 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:24:46.537 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B7B35C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:24:52.274 127.0.0.1:9050 IP 91.211.89.43 #### 
+Mar 08 16:24:56.163 IPchanged=1
+Mar 08 16:24:56.164 IPresolved=1
+Mar 08 16:24:56.164 IPchangeFailed=0
+Mar 08 16:24:56.165 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:24:56.165 AppRunning=179.3544981 sec
+Mar 08 16:25:06.185 IPchanged=1
+Mar 08 16:25:06.186 IPresolved=1
+Mar 08 16:25:06.187 IPchangeFailed=0
+Mar 08 16:25:06.188 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:25:06.188 AppRunning=189.3781041 sec
+Mar 08 16:25:06.209 -------------------------CHANGING-IP------------------------
+Mar 08 16:25:06.445 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:25:06.737 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF68C88>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:25:11.687 127.0.0.1:9050 IP 31.42.184.136 282ms 
+Mar 08 16:25:16.206 IPchanged=2
+Mar 08 16:25:16.207 IPresolved=2
+Mar 08 16:25:16.207 IPchangeFailed=0
+Mar 08 16:25:16.207 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:25:16.208 AppRunning=199.3967359 sec
+Mar 08 16:25:26.221 IPchanged=2
+Mar 08 16:25:26.221 IPresolved=2
+Mar 08 16:25:26.221 IPchangeFailed=0
+Mar 08 16:25:26.222 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:25:26.222 AppRunning=209.4118221 sec
+Mar 08 16:25:26.239 -------------------------CHANGING-IP------------------------
+Mar 08 16:25:26.290 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:25:27.031 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B6994C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:25:27.200 TOR server stopped. 
+Mar 08 16:25:27.203 IP Changer stopped.
+Mar 08 16:25:28.124 SOCKSHTTPConnectionPool(host='checkip.amazonaws.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B6999C8>: Failed to establish a new connection: [WinError 10054] An existing connection was forcibly closed by the remote host'))
+Mar 08 16:32:29.670 ------------------------------------------------------------
+Mar 08 16:32:29.670 Checking files. 
+Mar 08 16:32:30.013 No missing files
+Mar 08 16:32:30.013 ------------------------------------------------------------
+Mar 08 16:32:31.154 TOR server starting 
+Mar 08 16:32:31.154 using direct connection. 
+Mar 08 16:32:31.154 Always obtain unique IP 
+Mar 08 16:32:31.154 ON
+Mar 08 16:32:31.170 Please wait ... 
+Mar 08 16:32:37.112 0% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=0 TAG=starting SUMMARY="Starting"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:32:37.386 5% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=5 TAG=conn SUMMARY="Connecting to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:32:37.715 10% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=10 TAG=conn_done SUMMARY="Connected to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:32:38.051 14% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=14 TAG=handshake SUMMARY="Handshaking with a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:32:38.513 95% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=95 TAG=circuit_create SUMMARY="Establishing a Tor circuit"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:32:39.567 100% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=100 TAG=done SUMMARY="Done"
+250 OK
+ - 250-status/circuit-established=1
+Mar 08 16:32:39.568 TOR server started 
+Mar 08 16:32:39.572 DNS server started 
+Mar 08 16:32:39.581 ------------------------------------------------------------
+Mar 08 16:32:39.582 Proxy list:
+Mar 08 16:32:39.585 127.0.0.1:9050
+Mar 08 16:32:39.588 ------------------------------------------------------------
+Mar 08 16:32:39.591 IP Changer started.
+Mar 08 16:32:39.599 IPchanged=0
+Mar 08 16:32:39.600 IPresolved=0
+Mar 08 16:32:39.600 IPchangeFailed=0
+Mar 08 16:32:39.600 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:32:39.601 AppRunning=642.7903083 sec
+Mar 08 16:32:39.603 -------------------------CHANGING-IP------------------------
+Mar 08 16:32:39.755 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:32:44.048 TOR server stopped. 
+Mar 08 16:32:44.050 IP Changer stopped.
+Mar 08 16:32:45.415 ------------------------------------------------------------
+Mar 08 16:32:45.416 Checking files. 
+Mar 08 16:32:45.464 No missing files
+Mar 08 16:32:45.473 ------------------------------------------------------------
+Mar 08 16:32:45.785 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))': /
+Mar 08 16:32:47.817 SOCKSHTTPConnectionPool(host='checkip.amazonaws.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A606888>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Mar 08 16:33:04.665 TOR server stopped. 
+Mar 08 16:33:06.683 ------------------------------------------------------------
+Mar 08 16:33:06.683 Checking files. 
+Mar 08 16:33:06.730 No missing files
+Mar 08 16:33:06.730 ------------------------------------------------------------
+Mar 08 16:33:06.949 TOR server starting 
+Mar 08 16:33:06.949 using direct connection. 
+Mar 08 16:33:06.949 Always obtain unique IP 
+Mar 08 16:33:06.949 ON
+Mar 08 16:33:06.965 Please wait ... 
+Mar 08 16:33:12.682 5% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=5 TAG=conn SUMMARY="Connecting to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:33:13.010 10% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=10 TAG=conn_done SUMMARY="Connected to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:33:13.229 14% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=14 TAG=handshake SUMMARY="Handshaking with a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:33:13.715 95% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=95 TAG=circuit_create SUMMARY="Establishing a Tor circuit"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:33:14.816 100% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=100 TAG=done SUMMARY="Done"
+250 OK
+ - 250-status/circuit-established=1
+Mar 08 16:33:14.816 TOR server started 
+Mar 08 16:33:14.816 DNS server started 
+Mar 08 16:33:14.831 ------------------------------------------------------------
+Mar 08 16:33:14.831 Proxy list:
+Mar 08 16:33:14.831 127.0.0.1:9050
+Mar 08 16:33:14.831 ------------------------------------------------------------
+Mar 08 16:41:52.861 TOR server stopped. 
+Mar 08 16:41:54.897 ------------------------------------------------------------
+Mar 08 16:41:54.897 Checking files. 
+Mar 08 16:41:55.226 No missing files
+Mar 08 16:41:55.226 ------------------------------------------------------------
+Mar 08 16:41:56.101 TOR server starting 
+Mar 08 16:41:56.116 using direct connection. 
+Mar 08 16:41:56.116 Always obtain unique IP 
+Mar 08 16:41:56.116 ON
+Mar 08 16:41:56.132 Please wait ... 
+Mar 08 16:42:03.615 5% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=5 TAG=conn SUMMARY="Connecting to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:42:03.922 10% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=10 TAG=conn_done SUMMARY="Connected to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:42:04.157 14% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=14 TAG=handshake SUMMARY="Handshaking with a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:42:04.772 95% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=95 TAG=circuit_create SUMMARY="Establishing a Tor circuit"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:42:05.645 100% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=100 TAG=done SUMMARY="Done"
+250 OK
+ - 250-status/circuit-established=1
+Mar 08 16:42:05.645 TOR server started 
+Mar 08 16:42:05.660 DNS server started 
+Mar 08 16:42:05.660 ------------------------------------------------------------
+Mar 08 16:42:05.676 Proxy list:
+Mar 08 16:42:05.676 127.0.0.1:9050
+Mar 08 16:42:05.676 ------------------------------------------------------------
+Mar 08 16:42:05.692 IP Changer started.
+Mar 08 16:42:05.692 IPchanged=0
+Mar 08 16:42:05.692 IPresolved=0
+Mar 08 16:42:05.692 IPchangeFailed=0
+Mar 08 16:42:05.692 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:42:05.692 AppRunning=1208.8918297999999 sec
+Mar 08 16:42:05.692 -------------------------CHANGING-IP------------------------
+Mar 08 16:42:06.063 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AFB6888>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:42:06.189 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:42:09.771 127.0.0.1:9050 IP 195.254.135.76 #### 
+Mar 08 16:42:15.705 IPchanged=1
+Mar 08 16:42:15.705 IPresolved=1
+Mar 08 16:42:15.705 IPchangeFailed=0
+Mar 08 16:42:15.705 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:42:15.705 AppRunning=1218.8950369 sec
+Mar 08 16:42:25.712 IPchanged=1
+Mar 08 16:42:25.712 IPresolved=1
+Mar 08 16:42:25.712 IPchangeFailed=0
+Mar 08 16:42:25.713 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:42:25.713 AppRunning=1228.9019494 sec
+Mar 08 16:42:25.729 -------------------------CHANGING-IP------------------------
+Mar 08 16:42:25.883 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:42:29.614 127.0.0.1:9050 IP 185.220.102.252 249ms 
+Mar 08 16:42:35.727 IPchanged=2
+Mar 08 16:42:35.727 IPresolved=2
+Mar 08 16:42:35.727 IPchangeFailed=0
+Mar 08 16:42:35.727 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:42:35.727 AppRunning=1238.9214496 sec
+Mar 08 16:42:45.745 IPchanged=3
+Mar 08 16:42:45.746 IPresolved=2
+Mar 08 16:42:45.746 IPchangeFailed=0
+Mar 08 16:42:45.746 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:42:45.746 AppRunning=1248.9364486 sec
+Mar 08 16:42:45.749 -------------------------CHANGING-IP------------------------
+Mar 08 16:42:45.799 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:42:46.701 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF389C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:42:51.043 127.0.0.1:9050 IP 51.75.161.78 238ms 
+Mar 08 16:42:55.762 IPchanged=3
+Mar 08 16:42:55.762 IPresolved=3
+Mar 08 16:42:55.762 IPchangeFailed=0
+Mar 08 16:42:55.762 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:42:55.762 AppRunning=1258.9564165 sec
+Mar 08 16:43:05.783 IPchanged=4
+Mar 08 16:43:05.784 IPresolved=3
+Mar 08 16:43:05.784 IPchangeFailed=0
+Mar 08 16:43:05.784 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:43:05.784 AppRunning=1268.9734607999999 sec
+Mar 08 16:43:05.784 -------------------------CHANGING-IP------------------------
+Mar 08 16:43:06.057 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:43:06.495 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A611A48>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:43:12.771 127.0.0.1:9050 IP 185.220.101.145 #### 
+Mar 08 16:43:15.796 IPchanged=4
+Mar 08 16:43:15.796 IPresolved=4
+Mar 08 16:43:15.797 IPchangeFailed=0
+Mar 08 16:43:15.797 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:43:15.797 AppRunning=1278.986638 sec
+Mar 08 16:43:25.814 IPchanged=5
+Mar 08 16:43:25.815 IPresolved=4
+Mar 08 16:43:25.815 IPchangeFailed=0
+Mar 08 16:43:25.816 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:43:25.816 AppRunning=1289.0055817 sec
+Mar 08 16:43:25.816 -------------------------CHANGING-IP------------------------
+Mar 08 16:43:25.948 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:43:26.773 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A622988>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:43:31.096 127.0.0.1:9050 IP 185.220.102.4 244ms 
+Mar 08 16:43:35.838 IPchanged=5
+Mar 08 16:43:35.838 IPresolved=5
+Mar 08 16:43:35.838 IPchangeFailed=0
+Mar 08 16:43:35.838 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:43:35.838 AppRunning=1299.0296288 sec
+Mar 08 16:43:45.843 -------------------------CHANGING-IP------------------------
+Mar 08 16:43:45.857 IPchanged=6
+Mar 08 16:43:45.857 IPresolved=5
+Mar 08 16:43:45.858 IPchangeFailed=0
+Mar 08 16:43:45.858 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:43:45.858 AppRunning=1309.0476859 sec
+Mar 08 16:43:46.057 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:43:46.462 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A60DCC8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:43:51.818 127.0.0.1:9050 IP 185.220.101.38 #### 
+Mar 08 16:43:55.867 IPchanged=6
+Mar 08 16:43:55.867 IPresolved=6
+Mar 08 16:43:55.868 IPchangeFailed=0
+Mar 08 16:43:55.868 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:43:55.868 AppRunning=1319.0576623 sec
+Mar 08 16:44:05.873 -------------------------CHANGING-IP------------------------
+Mar 08 16:44:05.899 IPchanged=7
+Mar 08 16:44:05.900 IPresolved=6
+Mar 08 16:44:05.900 IPchangeFailed=0
+Mar 08 16:44:05.900 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:44:05.900 AppRunning=1329.0918599 sec
+Mar 08 16:44:06.035 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:44:08.282 127.0.0.1:9050 IP 209.141.61.36 #### 
+Mar 08 16:44:15.918 IPchanged=7
+Mar 08 16:44:15.919 IPresolved=7
+Mar 08 16:44:15.920 IPchangeFailed=0
+Mar 08 16:44:15.920 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:44:15.920 AppRunning=1339.1090489 sec
+Mar 08 16:44:25.919 -------------------------CHANGING-IP------------------------
+Mar 08 16:44:25.924 IPchanged=8
+Mar 08 16:44:25.928 IPresolved=7
+Mar 08 16:44:25.953 IPchangeFailed=0
+Mar 08 16:44:25.957 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:44:25.960 AppRunning=1349.1495656 sec
+Mar 08 16:44:26.227 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:44:28.301 127.0.0.1:9050 IP 185.220.101.74 #### 
+Mar 08 16:44:35.980 IPchanged=8
+Mar 08 16:44:35.981 IPresolved=8
+Mar 08 16:44:35.981 IPchangeFailed=0
+Mar 08 16:44:35.982 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:44:35.982 AppRunning=1359.1717093 sec
+Mar 08 16:44:45.967 -------------------------CHANGING-IP------------------------
+Mar 08 16:44:46.008 IPchanged=9
+Mar 08 16:44:46.008 IPresolved=8
+Mar 08 16:44:46.008 IPchangeFailed=0
+Mar 08 16:44:46.008 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:44:46.009 AppRunning=1369.1983824 sec
+Mar 08 16:44:46.072 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B699BC8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:44:46.857 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:44:51.192 127.0.0.1:9050 IP 185.195.71.244 329ms 
+Mar 08 16:44:56.011 IPchanged=9
+Mar 08 16:44:56.011 IPresolved=9
+Mar 08 16:44:56.012 IPchangeFailed=0
+Mar 08 16:44:56.012 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:44:56.013 AppRunning=1379.2020828 sec
+Mar 08 16:45:05.979 -------------------------CHANGING-IP------------------------
+Mar 08 16:45:06.019 IPchanged=10
+Mar 08 16:45:06.019 IPresolved=9
+Mar 08 16:45:06.019 IPchangeFailed=0
+Mar 08 16:45:06.019 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:45:06.020 AppRunning=1389.2094325 sec
+Mar 08 16:45:06.081 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:45:06.977 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B7B3EC8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:45:10.704 127.0.0.1:9050 IP 185.220.102.248 253ms 
+Mar 08 16:45:16.024 IPchanged=10
+Mar 08 16:45:16.024 IPresolved=10
+Mar 08 16:45:16.025 IPchangeFailed=0
+Mar 08 16:45:16.025 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:45:16.025 AppRunning=1399.214796 sec
+Mar 08 16:45:26.017 -------------------------CHANGING-IP------------------------
+Mar 08 16:45:26.077 IPchanged=11
+Mar 08 16:45:26.077 IPresolved=10
+Mar 08 16:45:26.077 IPchangeFailed=0
+Mar 08 16:45:26.078 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:45:26.078 AppRunning=1409.2674862 sec
+Mar 08 16:45:26.180 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:45:26.898 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF522C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:45:30.771 127.0.0.1:9050 IP 185.220.102.249 #### 
+Mar 08 16:45:36.088 IPchanged=11
+Mar 08 16:45:36.088 IPresolved=11
+Mar 08 16:45:36.089 IPchangeFailed=0
+Mar 08 16:45:36.089 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:45:36.090 AppRunning=1419.2791623 sec
+Mar 08 16:45:46.023 -------------------------CHANGING-IP------------------------
+Mar 08 16:45:46.083 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:45:46.098 IPchanged=12
+Mar 08 16:45:46.098 IPresolved=11
+Mar 08 16:45:46.098 IPchangeFailed=0
+Mar 08 16:45:46.098 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:45:46.098 AppRunning=1429.2883317 sec
+Mar 08 16:45:46.785 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B6A0B08>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:45:50.710 127.0.0.1:9050 IP 185.220.101.66 337ms 
+Mar 08 16:45:56.100 IPchanged=12
+Mar 08 16:45:56.100 IPresolved=12
+Mar 08 16:45:56.100 IPchangeFailed=0
+Mar 08 16:45:56.101 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:45:56.101 AppRunning=1439.290116 sec
+Mar 08 16:46:06.054 -------------------------CHANGING-IP------------------------
+Mar 08 16:46:06.115 IPchanged=13
+Mar 08 16:46:06.115 IPresolved=12
+Mar 08 16:46:06.115 IPchangeFailed=0
+Mar 08 16:46:06.116 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:46:06.116 AppRunning=1449.3052439 sec
+Mar 08 16:46:06.149 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:46:06.520 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A860548>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:46:09.272 127.0.0.1:9050 IP 81.17.18.58 #### 
+Mar 08 16:46:16.131 IPchanged=13
+Mar 08 16:46:16.131 IPresolved=13
+Mar 08 16:46:16.131 IPchangeFailed=0
+Mar 08 16:46:16.131 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:46:16.132 AppRunning=1459.32101 sec
+Mar 08 16:46:26.079 -------------------------CHANGING-IP------------------------
+Mar 08 16:46:26.137 IPchanged=14
+Mar 08 16:46:26.137 IPresolved=13
+Mar 08 16:46:26.137 IPchangeFailed=0
+Mar 08 16:46:26.137 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:46:26.137 AppRunning=1469.32762 sec
+Mar 08 16:46:26.137 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:46:26.611 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A629288>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:46:29.757 127.0.0.1:9050 IP 185.195.71.2 #### 
+Mar 08 16:46:36.143 IPchanged=14
+Mar 08 16:46:36.143 IPresolved=14
+Mar 08 16:46:36.143 IPchangeFailed=0
+Mar 08 16:46:36.144 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:46:36.144 AppRunning=1479.332799 sec
+Mar 08 16:46:46.111 -------------------------CHANGING-IP------------------------
+Mar 08 16:46:46.154 IPchanged=15
+Mar 08 16:46:46.154 IPresolved=14
+Mar 08 16:46:46.154 IPchangeFailed=0
+Mar 08 16:46:46.155 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:46:46.155 AppRunning=1489.3443975999999 sec
+Mar 08 16:46:46.181 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:46:46.698 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A622908>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:46:49.258 127.0.0.1:9050 IP 185.195.71.2 #### 
+Mar 08 16:46:56.163 IPchanged=15
+Mar 08 16:46:56.163 IPresolved=15
+Mar 08 16:46:56.163 IPchangeFailed=0
+Mar 08 16:46:56.163 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:46:56.164 AppRunning=1499.3528491 sec
+Mar 08 16:47:06.133 -------------------------CHANGING-IP------------------------
+Mar 08 16:47:06.179 IPchanged=16
+Mar 08 16:47:06.180 IPresolved=15
+Mar 08 16:47:06.180 IPchangeFailed=0
+Mar 08 16:47:06.181 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:47:06.181 AppRunning=1509.3703352 sec
+Mar 08 16:47:06.193 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:47:06.598 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF68E88>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:47:10.246 127.0.0.1:9050 IP 185.220.101.139 #### 
+Mar 08 16:47:16.197 IPchanged=16
+Mar 08 16:47:16.197 IPresolved=16
+Mar 08 16:47:16.197 IPchangeFailed=0
+Mar 08 16:47:16.197 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:47:16.197 AppRunning=1519.3870811 sec
+Mar 08 16:47:26.165 -------------------------CHANGING-IP------------------------
+Mar 08 16:47:26.209 IPchanged=17
+Mar 08 16:47:26.209 IPresolved=16
+Mar 08 16:47:26.209 IPchangeFailed=0
+Mar 08 16:47:26.209 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:47:26.209 AppRunning=1529.3990463 sec
+Mar 08 16:47:26.258 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:47:30.766 127.0.0.1:9050 IP 104.244.72.123 #### 
+Mar 08 16:47:36.215 IPchanged=17
+Mar 08 16:47:36.215 IPresolved=17
+Mar 08 16:47:36.215 IPchangeFailed=0
+Mar 08 16:47:36.215 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:47:36.216 AppRunning=1539.4051458 sec
+Mar 08 16:47:46.186 -------------------------CHANGING-IP------------------------
+Mar 08 16:47:46.230 IPchanged=18
+Mar 08 16:47:46.230 IPresolved=17
+Mar 08 16:47:46.231 IPchangeFailed=0
+Mar 08 16:47:46.231 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:47:46.231 AppRunning=1549.420387 sec
+Mar 08 16:47:46.317 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:47:47.242 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF38C48>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:47:51.763 127.0.0.1:9050 IP 185.220.101.172 #### 
+Mar 08 16:47:56.240 IPchanged=18
+Mar 08 16:47:56.240 IPresolved=18
+Mar 08 16:47:56.240 IPchangeFailed=0
+Mar 08 16:47:56.241 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:47:56.241 AppRunning=1559.4303782 sec
+Mar 08 16:48:06.205 -------------------------CHANGING-IP------------------------
+Mar 08 16:48:06.252 IPchanged=19
+Mar 08 16:48:06.253 IPresolved=18
+Mar 08 16:48:06.253 IPchangeFailed=0
+Mar 08 16:48:06.253 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:48:06.253 AppRunning=1569.443388 sec
+Mar 08 16:48:06.466 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:48:06.637 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B69C288>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:48:12.066 127.0.0.1:9050 IP 185.107.47.215 241ms 
+Mar 08 16:48:16.259 IPchanged=19
+Mar 08 16:48:16.259 IPresolved=19
+Mar 08 16:48:16.259 IPchangeFailed=0
+Mar 08 16:48:16.259 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:48:16.259 AppRunning=1579.4485628 sec
+Mar 08 16:48:26.235 -------------------------CHANGING-IP------------------------
+Mar 08 16:48:26.267 IPchanged=20
+Mar 08 16:48:26.267 IPresolved=19
+Mar 08 16:48:26.267 IPchangeFailed=0
+Mar 08 16:48:26.267 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:48:26.267 AppRunning=1589.4566283 sec
+Mar 08 16:48:26.298 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:48:28.760 127.0.0.1:9050 IP 109.70.100.81 #### 
+Mar 08 16:48:36.282 IPchanged=20
+Mar 08 16:48:36.282 IPresolved=20
+Mar 08 16:48:36.282 IPchangeFailed=0
+Mar 08 16:48:36.282 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:48:36.283 AppRunning=1599.4725475999999 sec
+Mar 08 16:48:46.260 -------------------------CHANGING-IP------------------------
+Mar 08 16:48:46.289 IPchanged=21
+Mar 08 16:48:46.289 IPresolved=20
+Mar 08 16:48:46.289 IPchangeFailed=0
+Mar 08 16:48:46.289 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:48:46.289 AppRunning=1609.4786447 sec
+Mar 08 16:48:46.351 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:48:46.673 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A61D2C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:48:50.271 127.0.0.1:9050 IP 45.153.160.132 #### 
+Mar 08 16:48:56.299 IPchanged=21
+Mar 08 16:48:56.300 IPresolved=21
+Mar 08 16:48:56.300 IPchangeFailed=0
+Mar 08 16:48:56.300 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:48:56.301 AppRunning=1619.4899963 sec
+Mar 08 16:49:00.843 TOR server stopped. 
+Mar 08 16:49:00.843 IP Changer stopped.
+Mar 08 16:59:09.275 ------------------------------------------------------------
+Mar 08 16:59:09.275 Checking files. 
+Mar 08 16:59:09.603 No missing files
+Mar 08 16:59:09.603 ------------------------------------------------------------
+Mar 08 16:59:10.418 TOR server starting 
+Mar 08 16:59:10.423 using direct connection. 
+Mar 08 16:59:10.427 Always obtain unique IP 
+Mar 08 16:59:10.432 ON
+Mar 08 16:59:10.437 Please wait ... 
+Mar 08 16:59:17.322 5% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=5 TAG=conn SUMMARY="Connecting to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:59:17.653 10% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=10 TAG=conn_done SUMMARY="Connected to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:59:17.891 14% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=14 TAG=handshake SUMMARY="Handshaking with a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:59:18.494 95% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=95 TAG=circuit_create SUMMARY="Establishing a Tor circuit"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 16:59:20.532 100% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=100 TAG=done SUMMARY="Done"
+250 OK
+ - 250-status/circuit-established=1
+Mar 08 16:59:20.535 TOR server started 
+Mar 08 16:59:20.539 DNS server started 
+Mar 08 16:59:20.553 ------------------------------------------------------------
+Mar 08 16:59:20.554 Proxy list:
+Mar 08 16:59:20.558 127.0.0.1:9050
+Mar 08 16:59:20.558 ------------------------------------------------------------
+Mar 08 16:59:20.570 IP Changer started.
+Mar 08 16:59:20.586 IPchanged=0
+Mar 08 16:59:20.587 IPresolved=0
+Mar 08 16:59:20.587 IPchangeFailed=0
+Mar 08 16:59:20.587 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:59:20.588 AppRunning=2243.7771792 sec
+Mar 08 16:59:20.589 -------------------------CHANGING-IP------------------------
+Mar 08 16:59:20.647 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:59:21.347 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3E72A648>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:59:26.763 127.0.0.1:9050 IP 146.70.86.234 #### 
+Mar 08 16:59:30.599 IPchanged=1
+Mar 08 16:59:30.599 IPresolved=1
+Mar 08 16:59:30.599 IPchangeFailed=0
+Mar 08 16:59:30.599 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:59:30.600 AppRunning=2253.7886976 sec
+Mar 08 16:59:40.606 IPchanged=2
+Mar 08 16:59:40.606 IPresolved=1
+Mar 08 16:59:40.606 IPchangeFailed=0
+Mar 08 16:59:40.606 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:59:40.606 AppRunning=2263.796621 sec
+Mar 08 16:59:40.606 -------------------------CHANGING-IP------------------------
+Mar 08 16:59:40.715 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 16:59:41.235 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF385C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 16:59:45.530 127.0.0.1:9050 IP 109.70.100.83 251ms 
+Mar 08 16:59:50.619 IPchanged=2
+Mar 08 16:59:50.619 IPresolved=2
+Mar 08 16:59:50.619 IPchangeFailed=0
+Mar 08 16:59:50.619 IPchangeMaxFailedBeforeExit=3
+Mar 08 16:59:50.619 AppRunning=2273.8088635999998 sec
+Mar 08 17:00:00.633 IPchanged=3
+Mar 08 17:00:00.633 IPresolved=2
+Mar 08 17:00:00.633 IPchangeFailed=0
+Mar 08 17:00:00.634 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:00:00.634 AppRunning=2283.823578 sec
+Mar 08 17:00:00.635 -------------------------CHANGING-IP------------------------
+Mar 08 17:00:00.859 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:00:01.278 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A6223C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:00:04.735 127.0.0.1:9050 IP 109.70.100.80 #### 
+Mar 08 17:00:10.646 IPchanged=3
+Mar 08 17:00:10.646 IPresolved=3
+Mar 08 17:00:10.646 IPchangeFailed=0
+Mar 08 17:00:10.646 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:00:10.646 AppRunning=2293.8366492 sec
+Mar 08 17:00:20.653 IPchanged=3
+Mar 08 17:00:20.653 IPresolved=3
+Mar 08 17:00:20.653 IPchangeFailed=0
+Mar 08 17:00:20.653 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:00:20.653 AppRunning=2303.8432592999998 sec
+Mar 08 17:00:20.669 -------------------------CHANGING-IP------------------------
+Mar 08 17:00:20.888 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:00:21.048 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B6A2888>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:00:23.655 127.0.0.1:9050 IP 185.220.101.22 328ms 
+Mar 08 17:00:30.670 IPchanged=4
+Mar 08 17:00:30.670 IPresolved=4
+Mar 08 17:00:30.670 IPchangeFailed=0
+Mar 08 17:00:30.670 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:00:30.670 AppRunning=2313.8599080999998 sec
+Mar 08 17:00:40.682 IPchanged=4
+Mar 08 17:00:40.684 IPresolved=4
+Mar 08 17:00:40.684 IPchangeFailed=0
+Mar 08 17:00:40.684 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:00:40.685 AppRunning=2323.8736124 sec
+Mar 08 17:00:40.700 -------------------------CHANGING-IP------------------------
+Mar 08 17:00:40.840 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:00:41.125 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A6113C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:00:44.686 127.0.0.1:9050 IP 185.220.100.255 321ms 
+Mar 08 17:00:50.691 IPchanged=5
+Mar 08 17:00:50.691 IPresolved=5
+Mar 08 17:00:50.691 IPchangeFailed=0
+Mar 08 17:00:50.691 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:00:50.692 AppRunning=2333.8807345 sec
+Mar 08 17:01:00.700 IPchanged=5
+Mar 08 17:01:00.701 IPresolved=5
+Mar 08 17:01:00.701 IPchangeFailed=0
+Mar 08 17:01:00.701 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:01:00.701 AppRunning=2343.8905361 sec
+Mar 08 17:01:00.719 -------------------------CHANGING-IP------------------------
+Mar 08 17:01:00.776 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:01:01.893 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A618648>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:01:04.734 127.0.0.1:9050 IP 185.220.101.149 #### 
+Mar 08 17:01:10.717 IPchanged=6
+Mar 08 17:01:10.717 IPresolved=6
+Mar 08 17:01:10.717 IPchangeFailed=0
+Mar 08 17:01:10.717 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:01:10.718 AppRunning=2353.9072337 sec
+Mar 08 17:01:20.728 IPchanged=6
+Mar 08 17:01:20.728 IPresolved=6
+Mar 08 17:01:20.728 IPchangeFailed=0
+Mar 08 17:01:20.728 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:01:20.729 AppRunning=2363.9178438999998 sec
+Mar 08 17:01:20.741 -------------------------CHANGING-IP------------------------
+Mar 08 17:01:20.800 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:01:21.099 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B7B3888>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:01:25.275 127.0.0.1:9050 IP 185.220.101.181 #### 
+Mar 08 17:01:30.735 IPchanged=7
+Mar 08 17:01:30.735 IPresolved=7
+Mar 08 17:01:30.735 IPchangeFailed=0
+Mar 08 17:01:30.736 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:01:30.736 AppRunning=2373.9249564 sec
+Mar 08 17:01:40.747 IPchanged=7
+Mar 08 17:01:40.748 IPresolved=7
+Mar 08 17:01:40.748 IPchangeFailed=0
+Mar 08 17:01:40.748 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:01:40.748 AppRunning=2383.9378487 sec
+Mar 08 17:01:40.766 -------------------------CHANGING-IP------------------------
+Mar 08 17:01:40.866 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:01:41.169 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AFB6A08>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:01:45.754 127.0.0.1:9050 IP 195.206.105.217 #### 
+Mar 08 17:01:50.754 IPchanged=8
+Mar 08 17:01:50.754 IPresolved=8
+Mar 08 17:01:50.754 IPchangeFailed=0
+Mar 08 17:01:50.754 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:01:50.754 AppRunning=2393.9437219 sec
+Mar 08 17:02:00.769 IPchanged=8
+Mar 08 17:02:00.769 IPresolved=8
+Mar 08 17:02:00.769 IPchangeFailed=0
+Mar 08 17:02:00.769 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:02:00.770 AppRunning=2403.9586575 sec
+Mar 08 17:02:00.790 -------------------------CHANGING-IP------------------------
+Mar 08 17:02:00.834 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:02:10.781 IPchanged=9
+Mar 08 17:02:10.781 IPresolved=8
+Mar 08 17:02:10.781 IPchangeFailed=0
+Mar 08 17:02:10.781 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:02:10.782 AppRunning=2413.9705746 sec
+Mar 08 17:02:19.261 127.0.0.1:9050 IP 185.220.101.36 #### 
+Mar 08 17:02:20.787 IPchanged=9
+Mar 08 17:02:20.788 IPresolved=9
+Mar 08 17:02:20.788 IPchangeFailed=0
+Mar 08 17:02:20.788 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:02:20.788 AppRunning=2423.9782164 sec
+Mar 08 17:02:20.805 -------------------------CHANGING-IP------------------------
+Mar 08 17:02:21.326 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:02:22.540 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A61A248>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:02:26.752 127.0.0.1:9050 IP 109.70.100.29 #### 
+Mar 08 17:02:30.798 IPchanged=10
+Mar 08 17:02:30.799 IPresolved=10
+Mar 08 17:02:30.799 IPchangeFailed=0
+Mar 08 17:02:30.799 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:02:30.799 AppRunning=2433.9888471 sec
+Mar 08 17:02:40.808 IPchanged=10
+Mar 08 17:02:40.810 IPresolved=10
+Mar 08 17:02:40.810 IPchangeFailed=0
+Mar 08 17:02:40.810 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:02:40.811 AppRunning=2444.0001773 sec
+Mar 08 17:02:40.829 -------------------------CHANGING-IP------------------------
+Mar 08 17:02:40.968 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:02:43.449 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3D4E0848>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:02:45.269 127.0.0.1:9050 IP 45.137.184.31 #### 
+Mar 08 17:02:50.827 IPchanged=11
+Mar 08 17:02:50.828 IPresolved=11
+Mar 08 17:02:50.828 IPchangeFailed=0
+Mar 08 17:02:50.828 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:02:50.828 AppRunning=2454.0175534 sec
+Mar 08 17:03:00.857 IPchanged=12
+Mar 08 17:03:00.858 IPresolved=11
+Mar 08 17:03:00.858 IPchangeFailed=0
+Mar 08 17:03:00.858 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:03:00.858 AppRunning=2464.0478629 sec
+Mar 08 17:03:00.862 -------------------------CHANGING-IP------------------------
+Mar 08 17:03:00.999 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:03:01.727 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B72CF88>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:03:04.777 127.0.0.1:9050 IP 104.244.73.43 #### 
+Mar 08 17:03:10.888 IPchanged=12
+Mar 08 17:03:10.902 IPresolved=12
+Mar 08 17:03:10.902 IPchangeFailed=0
+Mar 08 17:03:10.903 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:03:10.903 AppRunning=2474.0922914 sec
+Mar 08 17:03:20.913 -------------------------CHANGING-IP------------------------
+Mar 08 17:03:20.990 IPchanged=13
+Mar 08 17:03:20.990 IPresolved=12
+Mar 08 17:03:20.990 IPchangeFailed=0
+Mar 08 17:03:20.990 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:03:20.991 AppRunning=2484.1802685 sec
+Mar 08 17:03:20.994 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:03:21.685 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B5ADAC8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:03:24.883 127.0.0.1:9050 IP 185.195.71.2 #### 
+Mar 08 17:03:30.999 IPchanged=13
+Mar 08 17:03:30.999 IPresolved=13
+Mar 08 17:03:30.999 IPchangeFailed=0
+Mar 08 17:03:30.999 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:03:30.999 AppRunning=2494.1895038 sec
+Mar 08 17:03:40.913 -------------------------CHANGING-IP------------------------
+Mar 08 17:03:40.995 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:03:41.001 IPchanged=14
+Mar 08 17:03:41.001 IPresolved=13
+Mar 08 17:03:41.001 IPchangeFailed=0
+Mar 08 17:03:41.001 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:03:41.001 AppRunning=2504.1987431 sec
+Mar 08 17:03:41.421 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A629B48>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:03:44.712 127.0.0.1:9050 IP 5.2.69.50 241ms 
+Mar 08 17:03:51.041 IPchanged=14
+Mar 08 17:03:51.042 IPresolved=14
+Mar 08 17:03:51.042 IPchangeFailed=0
+Mar 08 17:03:51.042 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:03:51.042 AppRunning=2514.2310216 sec
+Mar 08 17:04:00.936 -------------------------CHANGING-IP------------------------
+Mar 08 17:04:01.057 IPchanged=15
+Mar 08 17:04:01.057 IPresolved=14
+Mar 08 17:04:01.057 IPchangeFailed=0
+Mar 08 17:04:01.058 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:04:01.058 AppRunning=2524.247071 sec
+Mar 08 17:04:01.271 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:04:01.297 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3E72A888>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:04:05.559 127.0.0.1:9050 IP 87.120.254.105 276ms 
+Mar 08 17:04:11.070 IPchanged=15
+Mar 08 17:04:11.070 IPresolved=15
+Mar 08 17:04:11.070 IPchangeFailed=0
+Mar 08 17:04:11.070 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:04:11.070 AppRunning=2534.2600207 sec
+Mar 08 17:04:20.955 -------------------------CHANGING-IP------------------------
+Mar 08 17:04:21.053 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:04:21.078 IPchanged=16
+Mar 08 17:04:21.078 IPresolved=15
+Mar 08 17:04:21.078 IPchangeFailed=0
+Mar 08 17:04:21.078 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:04:21.078 AppRunning=2544.2681167 sec
+Mar 08 17:04:21.805 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B5AD548>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:04:24.662 127.0.0.1:9050 IP 23.154.177.3 272ms 
+Mar 08 17:04:31.092 IPchanged=16
+Mar 08 17:04:31.092 IPresolved=16
+Mar 08 17:04:31.092 IPchangeFailed=0
+Mar 08 17:04:31.093 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:04:31.093 AppRunning=2554.2821483 sec
+Mar 08 17:04:40.979 -------------------------CHANGING-IP------------------------
+Mar 08 17:04:41.106 IPchanged=17
+Mar 08 17:04:41.107 IPresolved=16
+Mar 08 17:04:41.107 IPchangeFailed=0
+Mar 08 17:04:41.107 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:04:41.107 AppRunning=2564.2963185 sec
+Mar 08 17:04:41.120 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:04:45.773 127.0.0.1:9050 IP 185.220.101.51 #### 
+Mar 08 17:04:51.111 IPchanged=17
+Mar 08 17:04:51.111 IPresolved=17
+Mar 08 17:04:51.112 IPchangeFailed=0
+Mar 08 17:04:51.112 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:04:51.112 AppRunning=2574.3010388 sec
+Mar 08 17:05:00.997 -------------------------CHANGING-IP------------------------
+Mar 08 17:05:01.120 IPchanged=18
+Mar 08 17:05:01.121 IPresolved=17
+Mar 08 17:05:01.121 IPchangeFailed=0
+Mar 08 17:05:01.130 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:05:01.131 AppRunning=2584.3193325 sec
+Mar 08 17:05:01.189 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:05:01.974 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B376EC8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:05:08.257 127.0.0.1:9050 IP 128.31.0.13 #### 
+Mar 08 17:05:11.143 IPchanged=18
+Mar 08 17:05:11.143 IPresolved=18
+Mar 08 17:05:11.143 IPchangeFailed=0
+Mar 08 17:05:11.143 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:05:11.143 AppRunning=2594.3334018 sec
+Mar 08 17:05:21.024 -------------------------CHANGING-IP------------------------
+Mar 08 17:05:21.114 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:05:21.150 IPchanged=19
+Mar 08 17:05:21.150 IPresolved=18
+Mar 08 17:05:21.150 IPchangeFailed=0
+Mar 08 17:05:21.150 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:05:21.150 AppRunning=2604.340366 sec
+Mar 08 17:05:26.662 127.0.0.1:9050 IP 185.220.100.243 325ms 
+Mar 08 17:05:31.165 IPchanged=19
+Mar 08 17:05:31.165 IPresolved=19
+Mar 08 17:05:31.165 IPchangeFailed=0
+Mar 08 17:05:31.165 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:05:31.166 AppRunning=2614.3555129 sec
+Mar 08 17:05:41.051 -------------------------CHANGING-IP------------------------
+Mar 08 17:05:41.177 IPchanged=20
+Mar 08 17:05:41.177 IPresolved=19
+Mar 08 17:05:41.178 IPchangeFailed=0
+Mar 08 17:05:41.178 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:05:41.178 AppRunning=2624.367784 sec
+Mar 08 17:05:41.455 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:05:45.636 127.0.0.1:9050 IP 188.214.104.146 277ms 
+Mar 08 17:05:51.181 IPchanged=20
+Mar 08 17:05:51.181 IPresolved=20
+Mar 08 17:05:51.181 IPchangeFailed=0
+Mar 08 17:05:51.181 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:05:51.181 AppRunning=2634.3735321999998 sec
+Mar 08 17:06:01.077 -------------------------CHANGING-IP------------------------
+Mar 08 17:06:01.160 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:06:01.185 IPchanged=21
+Mar 08 17:06:01.185 IPresolved=20
+Mar 08 17:06:01.185 IPchangeFailed=0
+Mar 08 17:06:01.186 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:06:01.186 AppRunning=2644.37548 sec
+Mar 08 17:06:04.721 127.0.0.1:9050 IP 107.189.10.63 248ms 
+Mar 08 17:06:11.198 IPchanged=21
+Mar 08 17:06:11.198 IPresolved=21
+Mar 08 17:06:11.198 IPchangeFailed=0
+Mar 08 17:06:11.198 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:06:11.198 AppRunning=2654.3883326 sec
+Mar 08 17:06:21.108 -------------------------CHANGING-IP------------------------
+Mar 08 17:06:21.190 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:06:21.209 IPchanged=22
+Mar 08 17:06:21.209 IPresolved=21
+Mar 08 17:06:21.209 IPchangeFailed=0
+Mar 08 17:06:21.209 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:06:21.210 AppRunning=2664.3986309 sec
+Mar 08 17:06:21.726 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B6A0AC8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:06:27.823 127.0.0.1:9050 IP 185.220.100.253 #### 
+Mar 08 17:06:31.219 IPchanged=22
+Mar 08 17:06:31.219 IPresolved=22
+Mar 08 17:06:31.219 IPchangeFailed=0
+Mar 08 17:06:31.219 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:06:31.219 AppRunning=2674.4090434 sec
+Mar 08 17:06:41.144 -------------------------CHANGING-IP------------------------
+Mar 08 17:06:41.233 IPchanged=23
+Mar 08 17:06:41.233 IPresolved=22
+Mar 08 17:06:41.233 IPchangeFailed=0
+Mar 08 17:06:41.233 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:06:41.234 AppRunning=2684.4229642 sec
+Mar 08 17:06:41.246 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:06:44.274 127.0.0.1:9050 IP 185.195.71.2 #### 
+Mar 08 17:06:51.266 IPchanged=23
+Mar 08 17:06:51.266 IPresolved=23
+Mar 08 17:06:51.266 IPchangeFailed=0
+Mar 08 17:06:51.266 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:06:51.266 AppRunning=2694.4557373 sec
+Mar 08 17:07:01.169 -------------------------CHANGING-IP------------------------
+Mar 08 17:07:01.279 IPchanged=24
+Mar 08 17:07:01.279 IPresolved=23
+Mar 08 17:07:01.291 IPchangeFailed=0
+Mar 08 17:07:01.292 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:07:01.293 AppRunning=2704.4817647 sec
+Mar 08 17:07:01.312 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:07:01.739 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A629BC8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:07:06.774 127.0.0.1:9050 IP 185.195.71.2 #### 
+Mar 08 17:07:11.297 IPchanged=24
+Mar 08 17:07:11.297 IPresolved=24
+Mar 08 17:07:11.297 IPchangeFailed=0
+Mar 08 17:07:11.297 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:07:11.298 AppRunning=2714.4871572 sec
+Mar 08 17:07:21.195 -------------------------CHANGING-IP------------------------
+Mar 08 17:07:21.309 IPchanged=25
+Mar 08 17:07:21.309 IPresolved=24
+Mar 08 17:07:21.309 IPchangeFailed=0
+Mar 08 17:07:21.310 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:07:21.310 AppRunning=2724.499388 sec
+Mar 08 17:07:21.319 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:07:21.843 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3E72AD48>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:07:25.279 127.0.0.1:9050 IP 198.98.54.184 #### 
+Mar 08 17:07:31.328 IPchanged=25
+Mar 08 17:07:31.328 IPresolved=25
+Mar 08 17:07:31.329 IPchangeFailed=0
+Mar 08 17:07:31.329 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:07:31.329 AppRunning=2734.5190447 sec
+Mar 08 17:07:41.235 -------------------------CHANGING-IP------------------------
+Mar 08 17:07:41.349 IPchanged=26
+Mar 08 17:07:41.349 IPresolved=25
+Mar 08 17:07:41.350 IPchangeFailed=0
+Mar 08 17:07:41.350 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:07:41.350 AppRunning=2744.5394058 sec
+Mar 08 17:07:41.476 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:07:46.613 127.0.0.1:9050 IP 185.220.101.75 330ms 
+Mar 08 17:07:51.364 IPchanged=26
+Mar 08 17:07:51.389 IPresolved=26
+Mar 08 17:07:51.389 IPchangeFailed=0
+Mar 08 17:07:51.389 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:07:51.390 AppRunning=2754.5789854 sec
+Mar 08 17:08:01.245 -------------------------CHANGING-IP------------------------
+Mar 08 17:08:01.396 IPchanged=27
+Mar 08 17:08:01.396 IPresolved=26
+Mar 08 17:08:01.396 IPchangeFailed=0
+Mar 08 17:08:01.396 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:08:01.396 AppRunning=2764.585829 sec
+Mar 08 17:08:02.469 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:08:11.405 IPchanged=27
+Mar 08 17:08:11.405 IPresolved=26
+Mar 08 17:08:11.406 IPchangeFailed=0
+Mar 08 17:08:11.406 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:08:11.406 AppRunning=2774.5951994 sec
+Mar 08 17:08:15.753 127.0.0.1:9050 IP 109.70.100.29 333ms 
+Mar 08 17:08:21.296 -------------------------CHANGING-IP------------------------
+Mar 08 17:08:21.411 IPchanged=28
+Mar 08 17:08:21.411 IPresolved=27
+Mar 08 17:08:21.411 IPchangeFailed=0
+Mar 08 17:08:21.411 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:08:21.411 AppRunning=2784.6013113 sec
+Mar 08 17:08:21.476 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:08:22.365 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF50F48>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:08:26.686 127.0.0.1:9050 IP 185.220.102.245 251ms 
+Mar 08 17:08:31.423 IPchanged=28
+Mar 08 17:08:31.423 IPresolved=28
+Mar 08 17:08:31.423 IPchangeFailed=0
+Mar 08 17:08:31.423 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:08:31.424 AppRunning=2794.61357 sec
+Mar 08 17:08:41.350 -------------------------CHANGING-IP------------------------
+Mar 08 17:08:41.437 IPchanged=29
+Mar 08 17:08:41.437 IPresolved=28
+Mar 08 17:08:41.437 IPchangeFailed=0
+Mar 08 17:08:41.438 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:08:41.438 AppRunning=2804.6276522 sec
+Mar 08 17:08:41.879 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:08:49.829 127.0.0.1:9050 IP 199.249.230.87 #### 
+Mar 08 17:08:51.441 IPchanged=29
+Mar 08 17:08:51.441 IPresolved=29
+Mar 08 17:08:51.441 IPchangeFailed=0
+Mar 08 17:08:51.442 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:08:51.442 AppRunning=2814.6317275 sec
+Mar 08 17:09:01.369 -------------------------CHANGING-IP------------------------
+Mar 08 17:09:01.456 IPchanged=30
+Mar 08 17:09:01.457 IPresolved=29
+Mar 08 17:09:01.457 IPchangeFailed=0
+Mar 08 17:09:01.457 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:09:01.457 AppRunning=2824.6471332 sec
+Mar 08 17:09:01.466 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:09:03.291 127.0.0.1:9050 IP 185.220.101.43 #### 
+Mar 08 17:09:11.467 IPchanged=30
+Mar 08 17:09:11.468 IPresolved=30
+Mar 08 17:09:11.468 IPchangeFailed=0
+Mar 08 17:09:11.468 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:09:11.469 AppRunning=2834.6586108 sec
+Mar 08 17:09:21.393 -------------------------CHANGING-IP------------------------
+Mar 08 17:09:21.484 IPchanged=31
+Mar 08 17:09:21.484 IPresolved=30
+Mar 08 17:09:21.484 IPchangeFailed=0
+Mar 08 17:09:21.484 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:09:21.484 AppRunning=2844.6744405 sec
+Mar 08 17:09:22.070 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:09:31.497 IPchanged=31
+Mar 08 17:09:31.498 IPresolved=30
+Mar 08 17:09:31.499 IPchangeFailed=0
+Mar 08 17:09:31.499 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:09:31.499 AppRunning=2854.6887873 sec
+Mar 08 17:09:32.650 127.0.0.1:9050 IP 89.234.157.254 #### 
+Mar 08 17:09:41.506 IPchanged=32
+Mar 08 17:09:41.506 IPresolved=31
+Mar 08 17:09:41.507 IPchangeFailed=0
+Mar 08 17:09:41.507 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:09:41.507 AppRunning=2864.6969013 sec
+Mar 08 17:09:41.547 -------------------------CHANGING-IP------------------------
+Mar 08 17:09:41.659 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A6185C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:09:41.979 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:09:47.589 127.0.0.1:9050 IP 89.163.143.8 285ms 
+Mar 08 17:09:51.517 IPchanged=32
+Mar 08 17:09:51.517 IPresolved=32
+Mar 08 17:09:51.517 IPchangeFailed=0
+Mar 08 17:09:51.518 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:09:51.518 AppRunning=2874.7076799 sec
+Mar 08 17:10:01.513 -------------------------CHANGING-IP------------------------
+Mar 08 17:10:01.527 IPchanged=33
+Mar 08 17:10:01.527 IPresolved=32
+Mar 08 17:10:01.527 IPchangeFailed=0
+Mar 08 17:10:01.527 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:10:01.527 AppRunning=2884.7171726 sec
+Mar 08 17:10:01.791 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:10:02.309 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B6990C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:10:09.515 127.0.0.1:9050 IP 185.220.101.84 329ms 
+Mar 08 17:10:11.538 IPchanged=33
+Mar 08 17:10:11.538 IPresolved=33
+Mar 08 17:10:11.539 IPchangeFailed=0
+Mar 08 17:10:11.539 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:10:11.539 AppRunning=2894.7288124 sec
+Mar 08 17:10:21.555 IPchanged=33
+Mar 08 17:10:21.555 IPresolved=33
+Mar 08 17:10:21.555 IPchangeFailed=0
+Mar 08 17:10:21.556 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:10:21.556 AppRunning=2904.7453143 sec
+Mar 08 17:10:21.621 -------------------------CHANGING-IP------------------------
+Mar 08 17:10:22.257 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:10:24.649 127.0.0.1:9050 IP 109.70.100.78 260ms 
+Mar 08 17:10:31.564 IPchanged=34
+Mar 08 17:10:31.565 IPresolved=34
+Mar 08 17:10:31.565 IPchangeFailed=0
+Mar 08 17:10:31.566 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:10:31.566 AppRunning=2914.7551043 sec
+Mar 08 17:10:41.568 IPchanged=34
+Mar 08 17:10:41.568 IPresolved=34
+Mar 08 17:10:41.568 IPchangeFailed=0
+Mar 08 17:10:41.569 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:10:41.569 AppRunning=2924.7580549 sec
+Mar 08 17:10:41.640 -------------------------CHANGING-IP------------------------
+Mar 08 17:10:42.096 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:10:42.178 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A6189C8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:10:46.254 127.0.0.1:9050 IP 185.220.101.83 #### 
+Mar 08 17:10:51.572 IPchanged=35
+Mar 08 17:10:51.572 IPresolved=35
+Mar 08 17:10:51.572 IPchangeFailed=0
+Mar 08 17:10:51.572 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:10:51.572 AppRunning=2934.7624468999998 sec
+Mar 08 17:11:01.578 IPchanged=35
+Mar 08 17:11:01.578 IPresolved=35
+Mar 08 17:11:01.578 IPchangeFailed=0
+Mar 08 17:11:01.578 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:11:01.578 AppRunning=2944.7680121 sec
+Mar 08 17:11:01.669 -------------------------CHANGING-IP------------------------
+Mar 08 17:11:01.838 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:11:11.590 IPchanged=36
+Mar 08 17:11:11.590 IPresolved=35
+Mar 08 17:11:11.590 IPchangeFailed=0
+Mar 08 17:11:11.591 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:11:11.591 AppRunning=2954.7802338 sec
+Mar 08 17:11:20.756 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AFBEC48>, 'Connection to checkip.amazonaws.com timed out. (connect timeout=19)')': /
+Mar 08 17:11:21.602 IPchanged=36
+Mar 08 17:11:21.602 IPresolved=35
+Mar 08 17:11:21.602 IPchangeFailed=0
+Mar 08 17:11:21.602 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:11:21.603 AppRunning=2964.7918846 sec
+Mar 08 17:11:21.847 SOCKSHTTPConnectionPool(host='checkip.amazonaws.com', port=80): Max retries exceeded with url: / (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+Mar 08 17:11:21.939 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:11:22.764 127.0.0.1:9050 failed - status: Changing OK but unable to connect
+Mar 08 17:11:31.605 IPchanged=37
+Mar 08 17:11:31.606 IPresolved=35
+Mar 08 17:11:31.606 IPchangeFailed=0
+Mar 08 17:11:31.606 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:11:31.606 AppRunning=2974.79586 sec
+Mar 08 17:11:40.737 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B6A28C8>, 'Connection to checkip.amazonaws.com timed out. (connect timeout=19)')': /
+Mar 08 17:11:41.611 IPchanged=37
+Mar 08 17:11:41.611 IPresolved=35
+Mar 08 17:11:41.612 IPchangeFailed=0
+Mar 08 17:11:41.613 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:11:41.613 AppRunning=2984.802122 sec
+Mar 08 17:11:41.710 -------------------------CHANGING-IP------------------------
+Mar 08 17:11:41.835 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:11:44.734 127.0.0.1:9050 IP 45.153.160.130 247ms 
+Mar 08 17:11:44.749 127.0.0.1:9050 IP 45.153.160.130 248ms 
+Mar 08 17:11:51.614 IPchanged=38
+Mar 08 17:11:51.618 IPresolved=37
+Mar 08 17:11:51.618 IPchangeFailed=0
+Mar 08 17:11:51.618 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:11:51.619 AppRunning=2994.8085844 sec
+Mar 08 17:12:01.632 IPchanged=38
+Mar 08 17:12:01.632 IPresolved=37
+Mar 08 17:12:01.633 IPchangeFailed=0
+Mar 08 17:12:01.634 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:12:01.634 AppRunning=3004.8232557 sec
+Mar 08 17:12:01.731 -------------------------CHANGING-IP------------------------
+Mar 08 17:12:02.004 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:12:02.734 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B72CB88>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:12:07.157 127.0.0.1:9050 IP 185.220.101.80 333ms 
+Mar 08 17:12:11.637 IPchanged=39
+Mar 08 17:12:11.637 IPresolved=38
+Mar 08 17:12:11.637 IPchangeFailed=0
+Mar 08 17:12:11.637 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:12:11.637 AppRunning=3014.8275517 sec
+Mar 08 17:12:21.648 IPchanged=39
+Mar 08 17:12:21.648 IPresolved=38
+Mar 08 17:12:21.648 IPchangeFailed=0
+Mar 08 17:12:21.649 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:12:21.649 AppRunning=3024.8383809 sec
+Mar 08 17:12:21.761 -------------------------CHANGING-IP------------------------
+Mar 08 17:12:21.896 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:12:22.264 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B5AD508>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:12:30.271 127.0.0.1:9050 IP 185.220.101.130 #### 
+Mar 08 17:12:31.654 IPchanged=40
+Mar 08 17:12:31.654 IPresolved=39
+Mar 08 17:12:31.654 IPchangeFailed=0
+Mar 08 17:12:31.654 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:12:31.655 AppRunning=3034.844545 sec
+Mar 08 17:12:41.670 IPchanged=40
+Mar 08 17:12:41.670 IPresolved=39
+Mar 08 17:12:41.670 IPchangeFailed=0
+Mar 08 17:12:41.670 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:12:41.670 AppRunning=3044.8600916 sec
+Mar 08 17:12:41.831 -------------------------CHANGING-IP------------------------
+Mar 08 17:12:41.909 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:12:45.755 127.0.0.1:9050 IP 185.220.101.79 #### 
+Mar 08 17:12:51.684 IPchanged=41
+Mar 08 17:12:51.684 IPresolved=40
+Mar 08 17:12:51.684 IPchangeFailed=0
+Mar 08 17:12:51.684 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:12:51.684 AppRunning=3054.873756 sec
+Mar 08 17:13:01.687 IPchanged=41
+Mar 08 17:13:01.687 IPresolved=40
+Mar 08 17:13:01.687 IPchangeFailed=0
+Mar 08 17:13:01.687 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:13:01.687 AppRunning=3064.8766989 sec
+Mar 08 17:13:01.858 -------------------------CHANGING-IP------------------------
+Mar 08 17:13:01.959 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:13:02.588 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B720BC8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:13:03.807 TOR server stopped. 
+Mar 08 17:13:03.807 IP Changer stopped.
+Mar 08 17:13:06.744 timed out
+Mar 08 17:13:16.552 ------------------------------------------------------------
+Mar 08 17:13:16.552 Checking files. 
+Mar 08 17:13:16.865 No missing files
+Mar 08 17:13:16.880 ------------------------------------------------------------
+Mar 08 17:13:17.734 TOR server starting 
+Mar 08 17:13:17.751 using direct connection. 
+Mar 08 17:13:17.751 Always obtain unique IP 
+Mar 08 17:13:17.751 ON
+Mar 08 17:13:17.767 Please wait ... 
+Mar 08 17:13:24.292 5% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=5 TAG=conn SUMMARY="Connecting to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 17:13:24.573 10% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=10 TAG=conn_done SUMMARY="Connected to a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 17:13:24.811 14% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=14 TAG=handshake SUMMARY="Handshaking with a relay"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 17:13:25.393 95% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=95 TAG=circuit_create SUMMARY="Establishing a Tor circuit"
+250 OK
+ - 250-status/circuit-established=0
+Mar 08 17:13:26.441 100% - 250 OK
+250-status/bootstrap-phase=NOTICE BOOTSTRAP PROGRESS=100 TAG=done SUMMARY="Done"
+250 OK
+ - 250-status/circuit-established=1
+Mar 08 17:13:26.443 TOR server started 
+Mar 08 17:13:26.451 DNS server started 
+Mar 08 17:13:26.461 ------------------------------------------------------------
+Mar 08 17:13:26.464 Proxy list:
+Mar 08 17:13:26.469 127.0.0.1:9050
+Mar 08 17:13:26.474 ------------------------------------------------------------
+Mar 08 17:13:26.477 IP Changer started.
+Mar 08 17:13:26.486 IPchanged=0
+Mar 08 17:13:26.487 IPresolved=0
+Mar 08 17:13:26.487 IPchangeFailed=0
+Mar 08 17:13:26.487 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:13:26.487 AppRunning=3089.6764406 sec
+Mar 08 17:13:26.491 -------------------------CHANGING-IP------------------------
+Mar 08 17:13:26.670 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:13:27.051 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF9FD08>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:13:31.258 127.0.0.1:9050 IP 185.100.87.72 #### 
+Mar 08 17:13:36.492 IPchanged=1
+Mar 08 17:13:36.493 IPresolved=1
+Mar 08 17:13:36.493 IPchangeFailed=0
+Mar 08 17:13:36.494 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:13:36.494 AppRunning=3099.6834595 sec
+Mar 08 17:13:46.495 IPchanged=1
+Mar 08 17:13:46.495 IPresolved=1
+Mar 08 17:13:46.495 IPchangeFailed=0
+Mar 08 17:13:46.496 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:13:46.496 AppRunning=3109.6851133 sec
+Mar 08 17:13:56.505 IPchanged=1
+Mar 08 17:13:56.505 IPresolved=1
+Mar 08 17:13:56.505 IPchangeFailed=0
+Mar 08 17:13:56.505 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:13:56.506 AppRunning=3119.6955115 sec
+Mar 08 17:14:06.513 IPchanged=2
+Mar 08 17:14:06.513 IPresolved=1
+Mar 08 17:14:06.513 IPchangeFailed=0
+Mar 08 17:14:06.514 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:14:06.515 AppRunning=3129.7035884 sec
+Mar 08 17:14:06.518 -------------------------CHANGING-IP------------------------
+Mar 08 17:14:06.590 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:14:07.199 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3AF52B48>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:14:10.722 127.0.0.1:9050 IP 185.220.101.159 338ms 
+Mar 08 17:14:16.527 IPchanged=2
+Mar 08 17:14:16.528 IPresolved=2
+Mar 08 17:14:16.528 IPchangeFailed=0
+Mar 08 17:14:16.530 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:14:16.531 AppRunning=3139.7208254 sec
+Mar 08 17:14:26.547 IPchanged=2
+Mar 08 17:14:26.548 IPresolved=2
+Mar 08 17:14:26.548 IPchangeFailed=0
+Mar 08 17:14:26.548 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:14:26.550 AppRunning=3149.7396228 sec
+Mar 08 17:14:36.565 IPchanged=2
+Mar 08 17:14:36.565 IPresolved=2
+Mar 08 17:14:36.565 IPchangeFailed=0
+Mar 08 17:14:36.565 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:14:36.566 AppRunning=3159.7552479 sec
+Mar 08 17:14:46.537 -------------------------CHANGING-IP------------------------
+Mar 08 17:14:46.570 IPchanged=3
+Mar 08 17:14:46.572 IPresolved=2
+Mar 08 17:14:46.573 IPchangeFailed=0
+Mar 08 17:14:46.573 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:14:46.574 AppRunning=3169.7627889 sec
+Mar 08 17:14:46.715 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:14:46.972 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3A622708>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:14:54.786 127.0.0.1:9050 IP 185.220.101.152 #### 
+Mar 08 17:14:56.577 IPchanged=3
+Mar 08 17:14:56.577 IPresolved=3
+Mar 08 17:14:56.577 IPchangeFailed=0
+Mar 08 17:14:56.578 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:14:56.578 AppRunning=3179.7675186 sec
+Mar 08 17:15:06.595 IPchanged=3
+Mar 08 17:15:06.596 IPresolved=3
+Mar 08 17:15:06.599 IPchangeFailed=0
+Mar 08 17:15:06.599 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:15:06.604 AppRunning=3189.790293 sec
+Mar 08 17:15:16.607 IPchanged=3
+Mar 08 17:15:16.607 IPresolved=3
+Mar 08 17:15:16.608 IPchangeFailed=0
+Mar 08 17:15:16.608 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:15:16.609 AppRunning=3199.7987711 sec
+Mar 08 17:15:26.565 -------------------------CHANGING-IP------------------------
+Mar 08 17:15:26.612 IPchanged=4
+Mar 08 17:15:26.612 IPresolved=3
+Mar 08 17:15:26.612 IPchangeFailed=0
+Mar 08 17:15:26.612 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:15:26.612 AppRunning=3209.8025382 sec
+Mar 08 17:15:26.643 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:15:27.296 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B8A4948>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:15:30.752 127.0.0.1:9050 IP 185.220.101.47 #### 
+Mar 08 17:15:36.620 IPchanged=4
+Mar 08 17:15:36.621 IPresolved=4
+Mar 08 17:15:36.622 IPchangeFailed=0
+Mar 08 17:15:36.622 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:15:36.622 AppRunning=3219.8114713 sec
+Mar 08 17:15:46.630 IPchanged=4
+Mar 08 17:15:46.630 IPresolved=4
+Mar 08 17:15:46.630 IPchangeFailed=0
+Mar 08 17:15:46.630 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:15:46.630 AppRunning=3229.8194189 sec
+Mar 08 17:15:56.637 IPchanged=4
+Mar 08 17:15:56.637 IPresolved=4
+Mar 08 17:15:56.637 IPchangeFailed=0
+Mar 08 17:15:56.638 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:15:56.638 AppRunning=3239.8278074 sec
+Mar 08 17:16:06.588 -------------------------CHANGING-IP------------------------
+Mar 08 17:16:06.651 IPchanged=5
+Mar 08 17:16:06.651 IPresolved=4
+Mar 08 17:16:06.651 IPchangeFailed=0
+Mar 08 17:16:06.652 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:16:06.652 AppRunning=3249.841524 sec
+Mar 08 17:16:06.853 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:16:07.282 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3DEEBFC8>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:16:10.748 127.0.0.1:9050 IP 37.228.129.5 #### 
+Mar 08 17:16:16.664 IPchanged=5
+Mar 08 17:16:16.664 IPresolved=5
+Mar 08 17:16:16.664 IPchangeFailed=0
+Mar 08 17:16:16.664 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:16:16.664 AppRunning=3259.8540225 sec
+Mar 08 17:16:26.693 IPchanged=5
+Mar 08 17:16:26.693 IPresolved=5
+Mar 08 17:16:26.693 IPchangeFailed=0
+Mar 08 17:16:26.693 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:16:26.693 AppRunning=3269.8863144 sec
+Mar 08 17:16:36.707 IPchanged=5
+Mar 08 17:16:36.708 IPresolved=5
+Mar 08 17:16:36.709 IPchangeFailed=0
+Mar 08 17:16:36.709 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:16:36.709 AppRunning=3279.8998025 sec
+Mar 08 17:16:46.656 -------------------------CHANGING-IP------------------------
+Mar 08 17:16:46.717 IPchanged=6
+Mar 08 17:16:46.718 IPresolved=5
+Mar 08 17:16:46.718 IPchangeFailed=0
+Mar 08 17:16:46.718 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:16:46.718 AppRunning=3289.9073894 sec
+Mar 08 17:16:47.023 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B6A0288>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:16:47.545 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:16:51.364 127.0.0.1:9050 IP 151.80.148.159 #### 
+Mar 08 17:16:56.721 IPchanged=6
+Mar 08 17:16:56.721 IPresolved=6
+Mar 08 17:16:56.722 IPchangeFailed=0
+Mar 08 17:16:56.722 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:16:56.722 AppRunning=3299.911706 sec
+Mar 08 17:17:06.735 IPchanged=6
+Mar 08 17:17:06.735 IPresolved=6
+Mar 08 17:17:06.736 IPchangeFailed=0
+Mar 08 17:17:06.736 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:17:06.736 AppRunning=3309.9255565 sec
+Mar 08 17:17:16.749 IPchanged=6
+Mar 08 17:17:16.750 IPresolved=6
+Mar 08 17:17:16.750 IPchangeFailed=0
+Mar 08 17:17:16.750 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:17:16.750 AppRunning=3319.9396167 sec
+Mar 08 17:17:26.678 -------------------------CHANGING-IP------------------------
+Mar 08 17:17:26.768 IPchanged=7
+Mar 08 17:17:26.769 IPresolved=6
+Mar 08 17:17:26.769 IPchangeFailed=0
+Mar 08 17:17:26.769 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:17:26.769 AppRunning=3329.9586725 sec
+Mar 08 17:17:26.850 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:17:27.513 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B376888>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:17:31.847 127.0.0.1:9050 IP 185.220.101.8 #### 
+Mar 08 17:17:36.788 IPchanged=7
+Mar 08 17:17:36.789 IPresolved=7
+Mar 08 17:17:36.789 IPchangeFailed=0
+Mar 08 17:17:36.791 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:17:36.791 AppRunning=3339.9803653999998 sec
+Mar 08 17:17:46.793 IPchanged=7
+Mar 08 17:17:46.793 IPresolved=7
+Mar 08 17:17:46.793 IPchangeFailed=0
+Mar 08 17:17:46.793 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:17:46.793 AppRunning=3349.984115 sec
+Mar 08 17:17:56.810 IPchanged=7
+Mar 08 17:17:56.810 IPresolved=7
+Mar 08 17:17:56.811 IPchangeFailed=0
+Mar 08 17:17:56.811 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:17:56.811 AppRunning=3360.0001687999998 sec
+Mar 08 17:18:06.693 -------------------------CHANGING-IP------------------------
+Mar 08 17:18:06.779 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:18:06.824 IPchanged=8
+Mar 08 17:18:06.824 IPresolved=7
+Mar 08 17:18:06.824 IPchangeFailed=0
+Mar 08 17:18:06.824 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:18:06.824 AppRunning=3370.0138418 sec
+Mar 08 17:18:07.135 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B8A4F48>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:18:10.272 127.0.0.1:9050 IP 89.163.249.244 #### 
+Mar 08 17:18:16.851 IPchanged=8
+Mar 08 17:18:16.851 IPresolved=8
+Mar 08 17:18:16.852 IPchangeFailed=0
+Mar 08 17:18:16.852 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:18:16.852 AppRunning=3380.0409335 sec
+Mar 08 17:18:26.855 IPchanged=8
+Mar 08 17:18:26.856 IPresolved=8
+Mar 08 17:18:26.857 IPchangeFailed=0
+Mar 08 17:18:26.857 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:18:26.858 AppRunning=3390.0473864 sec
+Mar 08 17:18:36.872 IPchanged=8
+Mar 08 17:18:36.875 IPresolved=8
+Mar 08 17:18:36.876 IPchangeFailed=0
+Mar 08 17:18:36.876 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:18:36.876 AppRunning=3400.0660652 sec
+Mar 08 17:18:46.755 -------------------------CHANGING-IP------------------------
+Mar 08 17:18:46.955 IPchanged=9
+Mar 08 17:18:46.955 IPresolved=8
+Mar 08 17:18:46.955 IPchangeFailed=0
+Mar 08 17:18:46.956 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:18:46.956 AppRunning=3410.1456463 sec
+Mar 08 17:18:46.985 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:18:47.673 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B69C308>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:18:52.777 127.0.0.1:9050 IP 89.58.27.84 339ms 
+Mar 08 17:18:56.970 IPchanged=9
+Mar 08 17:18:56.970 IPresolved=9
+Mar 08 17:18:56.971 IPchangeFailed=0
+Mar 08 17:18:56.971 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:18:56.971 AppRunning=3420.1601107 sec
+Mar 08 17:19:06.979 IPchanged=9
+Mar 08 17:19:06.979 IPresolved=9
+Mar 08 17:19:06.979 IPchangeFailed=0
+Mar 08 17:19:06.979 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:19:06.979 AppRunning=3430.1735684 sec
+Mar 08 17:19:16.999 IPchanged=9
+Mar 08 17:19:17.000 IPresolved=9
+Mar 08 17:19:17.000 IPchangeFailed=0
+Mar 08 17:19:17.000 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:19:17.000 AppRunning=3440.1895556 sec
+Mar 08 17:19:26.753 -------------------------CHANGING-IP------------------------
+Mar 08 17:19:27.003 IPchanged=10
+Mar 08 17:19:27.003 IPresolved=9
+Mar 08 17:19:27.004 IPchangeFailed=0
+Mar 08 17:19:27.005 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:19:27.006 AppRunning=3450.1952312 sec
+Mar 08 17:19:27.135 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:19:27.411 Retrying (Retry(total=0, connect=None, read=None, redirect=0, status=None)) after connection broken by 'NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x000002BE3B720908>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /
+Mar 08 17:19:31.766 127.0.0.1:9050 IP 185.220.101.147 #### 
+Mar 08 17:19:37.029 IPchanged=10
+Mar 08 17:19:37.029 IPresolved=10
+Mar 08 17:19:37.029 IPchangeFailed=0
+Mar 08 17:19:37.029 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:19:37.030 AppRunning=3460.2193801 sec
+Mar 08 17:19:47.039 IPchanged=10
+Mar 08 17:19:47.039 IPresolved=10
+Mar 08 17:19:47.039 IPchangeFailed=0
+Mar 08 17:19:47.039 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:19:47.040 AppRunning=3470.2294216 sec
+Mar 08 17:19:57.053 IPchanged=10
+Mar 08 17:19:57.054 IPresolved=10
+Mar 08 17:19:57.054 IPchangeFailed=0
+Mar 08 17:19:57.054 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:19:57.054 AppRunning=3480.2433304 sec
+Mar 08 17:20:06.777 -------------------------CHANGING-IP------------------------
+Mar 08 17:20:07.056 IPchanged=11
+Mar 08 17:20:07.056 IPresolved=10
+Mar 08 17:20:07.056 IPchangeFailed=0
+Mar 08 17:20:07.056 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:20:07.057 AppRunning=3490.2468879 sec
+Mar 08 17:20:08.174 Requesting new IP 127.0.0.1:9050 OK
+Mar 08 17:20:14.776 127.0.0.1:9050 IP 185.220.101.146 #### 
+Mar 08 17:20:17.077 IPchanged=11
+Mar 08 17:20:17.077 IPresolved=11
+Mar 08 17:20:17.078 IPchangeFailed=0
+Mar 08 17:20:17.078 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:20:17.078 AppRunning=3500.2676029 sec
+Mar 08 17:20:27.083 IPchanged=11
+Mar 08 17:20:27.084 IPresolved=11
+Mar 08 17:20:27.085 IPchangeFailed=0
+Mar 08 17:20:27.087 IPchangeMaxFailedBeforeExit=3
+Mar 08 17:20:27.087 AppRunning=3510.2766075 sec
