@@ -12,7 +12,7 @@ with open('runforever.txt') as f:
 
 while True:
     time.sleep(10)
-    if formtimes == numofline:
+    if formtimes <= int(numofline()):
         break
     with open('runforever.txt') as f:
         text_new = f.read()
