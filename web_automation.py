@@ -5,7 +5,10 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import random
 import time
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import TimeoutException
 import cv2
 import numpy as np
 import pytesseract
@@ -58,7 +61,7 @@ def fillform(driver):# Fills the form and submit it
     numb = phone_num(num_list)
     randpass = randomDigits(8)
     accounts[numb] = randpass
-    time.sleep(1)
+    time.sleep(2)
     # while driver.title == 'Please Wait... | Cloudflare':
         # time.sleep(5)
     try:
@@ -70,7 +73,7 @@ def fillform(driver):# Fills the form and submit it
     except NoSuchElementException:
         captchasol = ''
 
-    time.sleep(1)
+    time.sleep(2)
     phone = driver.find_element(By.XPATH,'//*[@id="app"]/div[2]/div/div[2]/div[1]/div[1]/div[2]/div/input')
     phone.click()
     phone.send_keys(numb)
@@ -97,7 +100,10 @@ def fillform(driver):# Fills the form and submit it
         submit.click()
     except StaleElementReferenceException:
         pass
-    time.sleep(6)
+    try:
+        WebDriverWait(driver , 15).until(EC.url_changes('https://app.win-winfinancial.in/#/register?r_code=hp8tel'))
+    except TimeoutException:
+        pass
     if driver.current_url == 'https://app.win-winfinancial.in/#/main/home':
         data(accounts)
         time.sleep(1)
@@ -108,7 +114,7 @@ inuser = 1000#int(input("Enter the no of forms you want to fill: "))
 driver.get('https://app.win-winfinancial.in/#/register?r_code=hp8tel')
 for i in range(0,inuser):
     fillform(driver)
-    time.sleep(1)
+    # time.sleep(1)
     driver.get('https://app.win-winfinancial.in/#/register?r_code=hp8tel')
 driver.quit()
 with open(r"user.txt", 'r') as fp:
