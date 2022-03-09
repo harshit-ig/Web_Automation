@@ -59,9 +59,8 @@ def fillform(driver):# Fills the form and submit it
     randpass = randomDigits(8)
     accounts[numb] = randpass
     time.sleep(1)
-    while driver.title == 'Please Wait... | Cloudflare':
-        time.sleep(5)
-    time.sleep(4)
+    # while driver.title == 'Please Wait... | Cloudflare':
+        # time.sleep(5)
     try:
         captchaimg = driver.find_element(By.XPATH,'//*[@id="app"]/div[2]/div/div[2]/div[1]/div[7]/div[3]/div/div/div/img')
         captchasrc = captchaimg.get_attribute('src')
@@ -92,7 +91,7 @@ def fillform(driver):# Fills the form and submit it
     captchafld = driver.find_element(By.XPATH,'//*[@id="app"]/div[2]/div/div[2]/div[1]/div[9]/div[3]/div/input')
     captchafld.click()
     captchafld.send_keys(captchasol)
-    time.sleep(1)
+    # time.sleep(1)
     submit = driver.find_element(By.XPATH,'//*[@id="app"]/div[2]/div/div[2]/div[3]/button')
     try:
         submit.click()
@@ -105,7 +104,7 @@ def fillform(driver):# Fills the form and submit it
     
 
 
-inuser = 500#int(input("Enter the no of forms you want to fill: "))
+inuser = 1000#int(input("Enter the no of forms you want to fill: "))
 driver.get('https://app.win-winfinancial.in/#/register?r_code=hp8tel')
 for i in range(0,inuser):
     fillform(driver)
